@@ -1,7 +1,7 @@
 /* header banner style  */
 body {
     width: 1335px;
-    height: 7335px;
+    height: 6795px;
     background: #FFF;
 }
 
@@ -15,7 +15,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     margin: 50px auto;
-   background:linear-gradient(-22deg,#241631 0%, rgba(7,2,17,0)100%),url('/resources/Banner\ Image.png')
+    background: linear-gradient(-22deg, #241631 0%, rgba(7, 2, 17, 0)100%), url('/resources/Banner\ Image.png')
 }
 
 .ban-sub {
@@ -107,8 +107,8 @@ body {
 
 .mid-img {
     background-image: url('/resources/Vectorrr.png');
-   background:linear-gradient(-15deg,#3b3841 0%, rgba(7,2,17,0)100%),url('/resources/Banner\ Image.png');
-/* 
+    background: linear-gradient(-15deg, #3b3841 0%, rgba(7, 2, 17, 0)100%), url('/resources/Banner\ Image.png');
+    /* 
     background:linear-gradient(80deg,#070211 0%, rgb(13, 14, 13,0)
     100%),url('/resources/Vectorrr.png') */
     width: 1180px;
@@ -168,6 +168,8 @@ body {
     width: 1180px;
     height: 400px;
     margin: 0 auto;
+    border-radius: 15px 10px;
+
 
 }
 
@@ -361,12 +363,13 @@ figure.rectangle-2 img {
     mix-blend-mode: multiply;
     background-color: white;
 }
+
 img.group {
     float: right;
     position: relative;
     margin-top: -575px;
     margin-right: 265px;
-    
+
 }
 
 /* holidays section style ended */
@@ -374,27 +377,30 @@ img.group {
 
 /* image gallery section style start  */
 
-.gallery-sub{
+.gallery-sub {
     font-size: 20px;
     margin-top: 100px;
     font-weight: 500;
     color: #F00;
     font-family: sans-serif;
 }
-.gallery-title{
+
+.gallery-title {
     text-transform: capitalize;
     font-size: 48px;
     font-weight: 800px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
-.gallery-para{
+
+.gallery-para {
     color: rgba(7, 2, 17, 0.60);
     line-height: 30px;
     font-size: 20px;
     font-family: sans-serif;
     width: 690px;
 }
+
 .gallery-manu {
     display: inline-block;
     position: relative;
@@ -407,16 +413,153 @@ figure.main-img-gallery img {
     height: 415px;
     margin-left: 10px;
     transition: .2s;
-    
+
 }
-figure.main-img-gallery img:hover{
+
+figure.main-img-gallery img:hover {
     transform: scale(1.1);
     width: 380px;
     height: 415px;
 }
 
-
 /* image gallery section style ended */
+
+/* Subscribe section start  */
+.subs-container {
+    background-color: rgba(255, 0, 0, 0.10);
+    width: 1180px;
+    height: 600px;
+    margin: 0 auto;
+    border-radius: 15px 10px;
+}
+figure.subs-img img {
+    margin: 20px auto;
+    display: block;
+    padding: 40px 0px 0px 0px;
+}
+.subs-title{
+    font-size: 45px;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.subs-para{
+    color: rgba(7, 2, 17, 0.60);
+    line-height: 30px;
+    font-size: 20px;
+    text-align: center;
+    width: 750px;
+    margin-left: 250px;
+    font-family: serif;
+}
+input#text{
+    width: 403px;
+    height: 33px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin: 10px auto;
+    margin-left: 397px;
+    font-size: 20px;
+    border: none;
+    position: absolute;
+    margin-top: 29px;
+    outline: none;
+}
+button.subs-btn {
+    width: 151px;
+    height: 53px;
+    text-align: center;
+    text-transform: capitalize;
+    background-color:#F00;
+    color: white;
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+    position: relative;
+    float: right;
+    margin-right: 289px;
+    margin-top: 29px;
+    display: inline-block;
+    font-size: 20px;
+}
+
+
+
+/* Subscribe section end */
 
 
 /* this is a main section end  */
+
+
+
+
+/* this is a footer section style start  */
+.footer-container{
+    background-color: #070211;
+}
+.top-item{
+    width: 1335;
+    height:100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    margin-top: 180px;
+    justify-content: space-between;
+    color: #FFF;
+    padding-top: 100px;
+
+}
+.top-left{
+    margin-left: 100px;
+    color: #FFF;
+
+}
+.top-right{
+    margin-right: 100px;
+    color: #FFF;
+
+}
+figure.icone img {
+    /* background: black; */
+    position: relative;
+    display: block;
+    margin-top: -85px;
+    margin-left: -65px;
+    color: #FFF;
+
+}
+figure.icone img.bottom {
+    margin-top: 20px;
+}
+.icon-gallery {
+    overflow: hidden;
+    text-align: center;
+}
+.i-gallery img{
+    margin-left: 10px;
+
+}
+.copy{
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: -900px;
+    margin-top: 100px;
+    color: #FFF;
+    padding-bottom: 100px;
+
+}
+.Unsubscribe{
+    float: right;
+    display: block;
+    position: relative;
+    margin-right: 140px;
+    margin-top: -60px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFF;
+    padding-bottom: 100px;
+
+}
+
+
+/* this is a footer section style end */
