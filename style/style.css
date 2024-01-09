@@ -15,7 +15,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     margin: 50px auto;
-    background: linear-gradient(-22deg, #241631 0%, rgba(7, 2, 17, 0)100%), url('/resources/Banner\ Image.png')
+    background: linear-gradient(-22deg, #241631 0%, rgba(7, 2, 17, 0)100%), url('../resources/Banner\ Image.png')
 }
 
 .ban-sub {
@@ -107,7 +107,7 @@ body {
 
 .mid-img {
     background-image: url('../resources/Vectorrr.png');
-    background: linear-gradient(-15deg, #3b3841 0%, rgba(7, 2, 17, 0)100%), url('/resources/Banner\ Image.png');
+    background: linear-gradient(-20deg, #3b3841 0%, rgba(7, 2, 17, 0)100%), url('../resources/Vectorrr.png');
     /* 
     background:linear-gradient(80deg,#070211 0%, rgb(13, 14, 13,0)
     100%),url('/resources/Vectorrr.png') */
