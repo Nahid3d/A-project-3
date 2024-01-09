@@ -6,7 +6,7 @@ body {
 }
 
 .back-img {
-    background-image: url('/resources/Banner\ Image.png');
+    background-image: url('../resources/Banner\ Image.png');
 
     /* filter: brightness(0.7); */
     width: 1180px;
@@ -106,7 +106,7 @@ body {
 }
 
 .mid-img {
-    background-image: url('/resources/Vectorrr.png');
+    background-image: url('../resources/Vectorrr.png');
     background: linear-gradient(-15deg, #3b3841 0%, rgba(7, 2, 17, 0)100%), url('/resources/Banner\ Image.png');
     /* 
     background:linear-gradient(80deg,#070211 0%, rgb(13, 14, 13,0)
@@ -121,7 +121,7 @@ body {
 }
 
 .mid-sub-img {
-    background-image: url('/resources/Group\ 70.png');
+    background-image: url('../resources/Group\ 70.png');
     width: 350px;
     height: 500px;
     background-position: right;
@@ -354,7 +354,7 @@ figure.rectangle img {
 
 figure.rectangle-2 img {
     border-radius: 16px 16px 0px 0px;
-    background: url(<path-to-image>), lightgray -59.98px 0px / 151.553% 100% no-repeat;
+    background: lightgray -59.98px 0px / 151.553% 100% no-repeat;
     position: relative;
     width: 351px;
     float: right;
