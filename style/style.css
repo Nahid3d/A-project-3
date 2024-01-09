@@ -8,13 +8,14 @@ body {
 .back-img {
     background-image: url('/resources/Banner\ Image.png');
 
+    /* filter: brightness(0.7); */
     width: 1180px;
     height: 600px;
     border-radius: 16px;
-    background-color: rgb(40 37 37 /70%);
     background-repeat: no-repeat;
     background-size: cover;
     margin: 50px auto;
+   background:linear-gradient(-22deg,#241631 0%, rgba(7,2,17,0)100%),url('/resources/Banner\ Image.png')
 }
 
 .ban-sub {
@@ -106,15 +107,17 @@ body {
 
 .mid-img {
     background-image: url('/resources/Vectorrr.png');
+   background:linear-gradient(-15deg,#3b3841 0%, rgba(7,2,17,0)100%),url('/resources/Banner\ Image.png');
+/* 
+    background:linear-gradient(80deg,#070211 0%, rgb(13, 14, 13,0)
+    100%),url('/resources/Vectorrr.png') */
     width: 1180px;
     height: 600px;
     border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.7);
     background-repeat: no-repeat;
     background-size: cover;
     margin: 50px auto;
     position: relative;
-    /* background-image: linear-gradient(45deg, black, transparent); */
 }
 
 .mid-sub-img {
@@ -220,7 +223,7 @@ h3.hotel-title-one span {
     margin: 0px auto;
     margin-top: 100px;
     margin-left: 65px;
-   
+
 }
 
 figure.new-year-img img {
@@ -260,7 +263,8 @@ figure.new-year-img img {
     font-size: 20;
 
 }
-h3.new-para{
+
+h3.new-para {
     font-size: 45px;
     color: #F00;
     font-family: sans-serif;
@@ -268,7 +272,8 @@ h3.new-para{
     text-align: center;
 
 }
-.last-para{
+
+.last-para {
     color: rgba(7, 2, 17, 0.60);
     line-height: 30px;
     font-size: 20px;
@@ -284,8 +289,134 @@ h3.new-para{
     display: inline-block;
 }
 
+.holi-sub {
+    font-size: 20px;
+    margin-top: 50px;
+    position: relative;
+    text-align: center;
+    font-weight: 400px;
+    font-family: sans-serif;
+}
 
+.holi-title {
+    font-size: 65px;
+    margin-top: 5px;
+    text-align: center;
+    display: contents;
+    overflow: hidden;
+    font-weight: 800;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.holi-title span {
+    color: #F00;
+}
+
+.holi-para {
+    font-size: 18px;
+    color: rgba(7, 2, 17, 0.60);
+    line-height: 30px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-top: 10px;
+    width: 730px;
+
+}
+
+.holi-info-main {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    margin-left: 330px;
+}
+
+figure.img-gallary img {
+    width: 380px;
+    height: 360px;
+    margin-top: 101px;
+    margin-left: 160px;
+    /* background:linear-gradient(-15deg,#c2c2c2 0%, rgba(7,17,7,0)100%),url('/resources/Group\ 75.png') */
+
+
+
+}
+
+figure.rectangle img {
+    margin-top: -126px;
+    margin-left: 15px;
+    z-index: -1;
+    position: relative;
+    width: 96%;
+}
+
+figure.rectangle-2 img {
+    border-radius: 16px 16px 0px 0px;
+    background: url(<path-to-image>), lightgray -59.98px 0px / 151.553% 100% no-repeat;
+    position: relative;
+    width: 351px;
+    float: right;
+    margin-right: 36px;
+    margin-top: -584px;
+    mix-blend-mode: multiply;
+    background-color: white;
+}
+img.group {
+    float: right;
+    position: relative;
+    margin-top: -575px;
+    margin-right: 265px;
+    
+}
 
 /* holidays section style ended */
+
+
+/* image gallery section style start  */
+
+.gallery-sub{
+    font-size: 20px;
+    margin-top: 100px;
+    font-weight: 500;
+    color: #F00;
+    font-family: sans-serif;
+}
+.gallery-title{
+    text-transform: capitalize;
+    font-size: 48px;
+    font-weight: 800px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.gallery-para{
+    color: rgba(7, 2, 17, 0.60);
+    line-height: 30px;
+    font-size: 20px;
+    font-family: sans-serif;
+    width: 690px;
+}
+.gallery-manu {
+    display: inline-block;
+    position: relative;
+    line-height: 0px;
+    margin-left: 60px;
+}
+
+figure.main-img-gallery img {
+    width: 380px;
+    height: 415px;
+    margin-left: 10px;
+    transition: .2s;
+    
+}
+figure.main-img-gallery img:hover{
+    transform: scale(1.1);
+    width: 380px;
+    height: 415px;
+}
+
+
+/* image gallery section style ended */
+
 
 /* this is a main section end  */
